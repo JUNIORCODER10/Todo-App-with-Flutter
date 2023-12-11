@@ -1,20 +1,49 @@
-<<<<<<< HEAD
-# todolist
+# Todo App with Flutter
 
-A new Flutter project.
+This project is a simple Todo application developed using Flutter, Firebase authentication, and a basic UI.
+
+## Prerequisites
+
+Make sure you have Flutter installed on your system. Also, Firebase configuration is required for authentication purposes.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+   ```bash
+   git clone https://github.com/JUNIORCODER10/Todo-App-with-Flutter.git
+Navigate to the project directory:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+bash
+Copy code
+cd Todo-App-with-Flutter
+Install dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Todo_App_with_Flutter
->>>>>>> 2daf364bc1348bb6d87ca9405f2e93e7a9818ec9
+bash
+Copy code
+flutter pub get
+Run the application:
+
+bash
+Copy code
+flutter run
+Project Structure
+The project consists of the following files:
+
+main.dart: Contains the main entry point of the application.
+login.dart: Includes code related to the login screen.
+homepage.dart: Includes code related to the home page of the Todo app.
+firebase_options.dart: Firebase configuration options for different platforms.
+How to Use
+The app starts with a login screen where users can enter their credentials.
+Upon successful login, users are directed to the Todo list page.
+Users can view, add, delete tasks, and mark them as completed.
+Tasks are stored locally within the app.
+Firebase Configuration
+The project uses Firebase for authentication. Make sure to configure Firebase properly for the app to work. You can find Firebase configuration options in the firebase_options.dart file.
+
+Contributions
+Contributions to enhance the application are welcome. Feel free to create pull requests or open issues for any improvements or bug fixes.
+
+License
+This project is licensed under the MIT License.
